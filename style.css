@@ -1,6 +1,23 @@
 header{
+    position: absolute;
+    z-index: 1;
     display: flex;
+    top: 0%;
+    justify-content: space-between;
 }
 header .headright{
+    position: absolute;
+    z-index: 2;
+    top: 2%;
     display: flex;
+}
+header .headleft{
+    position: absolute;
+    z-index: 2;
+    top: 2%;
+}
+hero img{
+    position: absolute;
+    z-index: 0;
+    top: 0%;
 }
