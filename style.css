@@ -1,3 +1,7 @@
+body{
+    background-color: rgba(80, 151, 222, 0.7);
+    margin: 0;
+}
 .headbox{
     position: absolute;
     z-index: 1;
@@ -6,7 +10,7 @@
     width: 100%;
     height: 10%;
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color:  rgba(255, 255, 255, 0.5);
 }
 .headleft img{
     z-index: 2;
@@ -16,21 +20,39 @@
 header .headright{
     display: flex;
     gap: 10px;
+    right: 5%;
 }
 .hero img{
     z-index: 0;
     width: 100%;
     height: 20%;
 }
-.contentbox_1{
-    display: flex;
+.text img{
+    width: 50%;
+    height: 30%;
 }
-.contentbox_2{
-    display: flex;
+.content img{
+    width: 50%;
+    height: 30%;
 }
-.contentbox_3{
-    display: flex;
+.contentbox{
+    left: 5%;
 }
-.contentbox_4{
+.whiteback{
+    left: 3%;
+    position: relative;
+    width: 90%;
+    height: 40%;
     display: flex;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    gap: 10px;
+}
+footer{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
