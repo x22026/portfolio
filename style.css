@@ -1,5 +1,6 @@
 body{
-    background-color: rgba(80, 151, 222, 0.7);
+    overflow-x: hidden;
+    background: linear-gradient(rgba(80, 151, 222, 0.9), rgba(4, 85, 191, 1));
     margin: 0;
 }
 .headbox{
@@ -13,19 +14,26 @@ body{
     background-color:  rgba(255, 255, 255, 0.5);
 }
 .headleft img{
-    z-index: 2;
+    z-index: 5;
     height: 10%;
     width: 10%;
 }
 header .headright{
     display: flex;
     gap: 10px;
-    right: 5%;
 }
 .hero img{
     z-index: 0;
     width: 100%;
     height: 20%;
+}
+.hero .title{
+    position:absolute;
+    top: 30%;
+    left: 30%;
+}
+.title h2{
+    font-size: 2.5em;
 }
 .text img{
     width: 50%;
@@ -39,7 +47,7 @@ header .headright{
     left: 5%;
 }
 .whiteback{
-    left: 3%;
+    left: 2%;
     position: relative;
     width: 90%;
     height: 40%;
@@ -55,4 +63,8 @@ footer{
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
+}
+footer p{
+    text-align: center;
+    padding-top: 30px;
 }
