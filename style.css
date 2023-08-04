@@ -18,6 +18,24 @@ body{
     height: 10%;
     width: 10%;
 }
+.headleft a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.headleft{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.headright{
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.headright a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
 header .headright{
     display: flex;
     gap: 10px;
@@ -38,6 +56,18 @@ header .headright{
 .text img{
     width: 50%;
     height: 30%;
+}
+.ji{
+    width: 80PX;
+    padding-left: 30PX;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+}
+.con{
+    width: 90PX;
+    padding-left: 15PX;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
 }
 .content img{
     width: 50%;
